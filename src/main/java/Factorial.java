@@ -7,7 +7,11 @@ public class Factorial {
         } else if(num == 0){
             return 1;
         } else {
-            return null;
+            Integer res=1;
+            for(int i=1; i<=num; i++){
+                res *= i;
+            }
+            return res;
         }
 
     }

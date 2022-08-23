@@ -17,4 +17,11 @@ public class FactorialTest {
         assertEquals(1, result);
     }
 
+    @Test
+    void shouldReturnValidNumberIfTheNumberIsGreaterThanZero() {
+        final Factorial factorial = new Factorial();
+        final Integer result = factorial.getFactorial(5);
+        assertEquals(120, result);
+    }
+
 }
