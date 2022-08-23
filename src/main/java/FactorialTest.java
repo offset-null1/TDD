@@ -10,4 +10,11 @@ public class FactorialTest {
 
     }
 
+    @Test
+    void shouldReturnOneIfTheNumberIsZero() {
+        final Factorial factorial = new Factorial();
+        final Integer result = factorial.getFactorial(0);
+        assertEquals(1, result);
+    }
+
 }

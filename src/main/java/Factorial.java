@@ -4,10 +4,11 @@ public class Factorial {
 
         if (num < 0) {
             return null;
-
+        } else if(num == 0){
+            return 1;
+        } else {
+            return null;
         }
 
-
-        return null;
     }
 }
